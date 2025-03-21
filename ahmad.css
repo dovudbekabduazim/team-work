@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+.main {
+    background-color: #433d60;
+    width: 100%;
+}
+
+.nav-link {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.navbar-toggler {
+    filter: invert(36%) sepia(25%) saturate(512%) hue-rotate(210deg) brightness(95%) contrast(90%);
+}
+
+
+
+.header-button1, .header-button2 {
+    width: 154px;
+    height: 48px;
+    background-color: #433d60;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.header-button2 {
+    background: rgb(129, 118, 175);
+    background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 100%);
+    color: #343045;
+    border: none;
+}
+
+.hero-top-left-title {
+    font-size: 46px;
+    color: #fff;
+    /* font-weight: bold; */
+}
+
+.hero-title-span {
+    color: #8176AF;
+}
+
+.hero-top-left-text {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0%;
+}
+
+.hero-button1 {
+    width: 214px;
+    height: 48px;
+    background: rgb(129, 118, 175);
+    background: linear-gradient(90deg, rgba(129, 118, 175, 1) 0%, rgba(192, 183, 232, 1) 100%);
+    border-radius: 40px;
+    border: none;
+    font-size: 12px;
+}
+
+.hero-arrow {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.hero-img-shadow {
+    position: absolute;
+}
+
+.hero-bottom-inner {
+    border-radius: 90px;
+    background: rgb(58, 52, 86);
+    background: radial-gradient(circle, rgba(58, 52, 86, 1) 0%, rgba(33, 30, 46, 1) 100%);
+    /* opacity: 70%; */
+    height: 167px;
+    justify-content: space-evenly;
+}
+
+.location-top-text,
+.call-top-text,
+.email-top-text {
+    color: #fff;
+    font-weight: 700;
+}
+
+.location-bottom-text,
+.call-bottom-text,
+.email-bottom-text {
+    color: #fff;
+    opacity: 70%;
+    font-weight: 400;
+}
+
+.call-bottom-text {
+    cursor: pointer;
+}
+
+/* .hero-bottom-line {
+    height: 116px;
+    width: 20px;
+    color: #fff;
+} */
+
+/* .hero-line{
+    height: 70px;
+    
+} */
+
+.hero-bottom-inner {
+    margin-top: 103px;
+    /* width: 1272px; */
+}
